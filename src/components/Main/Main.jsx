@@ -13,7 +13,7 @@ const ExpenseTracker = () => {
 
   return (
     <Card className={classes.root}>
-      <CardHeader title="Expense Tracker" style={{ textAlign: 'center', padding: '0.5rem 10%' }}/>
+      <CardHeader title="Expense Tracker" style={{ textAlign: 'center', padding: '0.5rem 10%',fontWeight:'700' }}/>
       <CardContent>
         <Typography align="center" variant="h5">Total Balance &#8377;{balance}</Typography>
         <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>

@@ -39,6 +39,33 @@ const App = () => {
         
         
       </Grid>
+
+      {/* ******** */}
+
+      {/* <Grid className={classes.grid}  container spacing={0} alignItems="center" justify="center" style={{ height: '100vh'}}>
+        <Grid item md={6} lg={4} className={classes.mobile} >
+          <Details title="Income" />
+        </Grid>
+        <Grid ref={main} item md={12} lg={3} className={classes.sizeHandler} className={classes.main}>
+          <Main />
+        </Grid>
+       
+        <Grid item md={6} lg={6} className={classes.sizeHandler} className={classes.desktop}>
+          <Details title="Income" />
+        </Grid>
+        <Grid item md={6} lg={4} className={classes.sizeHandler} className={classes.last}>
+          <Details title="Expense" />
+        </Grid>
+        
+
+        
+        
+        
+      </Grid>
+ */}
+
+
+
       <PushToTalkButtonContainer  >
           <PushToTalkButton  />
         </PushToTalkButtonContainer>
